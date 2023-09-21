@@ -1,0 +1,107 @@
+<!-- Inicialização de um documento em html 
+    <!DOCTYPE html> - mostra o tipo do documento = html5
+    html- envolve todo o código escrito em html
+    head - parte não visivel do código, importação de bibliotecas, mudança do nome
+    body - corpo do texto, parte visível -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <title> </title> -  nome da página -->
+        <title> HTML fundamentos </title>
+    </head>
+    <body style="padding-bottom: 500px"> <!-- adicionar scroll no site, espaçamento no final 500 pixels-->
+        <!-- 1. Títulos 
+            <h*> </h*> headers de 1 a 6 conforme a importancia
+            utilizado para criar títulos -->
+        <h1>Este é um título importante </h1>
+        <h3> Um novo título </h3>
+        <!-- 2. Parágrafos
+            <p> </p> usado em cada nova linha -->
+        <p> Descrição dos nossos serviços: </p>
+        <p> Mais um parágrafo </p>
+
+        <!-- 3. Tags sem conteúdo 
+            br/ usado para quebrar linha - break roll
+            hr/ usado para fazer uma linha - horizontal roll -->
+        <p> Um parágrafo </p>
+        <br/>
+        <p> segundo parágrafo </p>
+        <hr/>
+        <p> terceiro parágrafo </p>
+        <!-- 4 Comentários -->
+
+        <!-- 5 Atributos 
+             tag 'a' usada para referenciar sites -->
+        <a href='https://youtube.com'>YouTube</a>
+        <br>
+
+        <!-- 6 Abrir link em nova aba -->
+        <a href="https://youtube.com" target = "_blank">YouTube em nova aba</a>
+        <br/> <!-- a elementos de line -->
+        
+        <!-- 7 imagem -->
+        <!-- self closing tag - não precisa de outro img -->
+        <!-- src = source -->
+        <br>
+        <img src="img/F6e8HM0W0AAHQiy.jpg"/>
+        
+        <!-- 8 atributo alt -->
+        <!-- descrição das imagens, bom para nota do google -->
+        <img src="img/WhatsApp Image 2023-07-17 at 21.18.45.jpeg" alt="cachorro idiota mostrando a língua"/>
+
+        <!-- 9 listas nao ordenadas-->
+        <!-- ul - unordened list
+             li - list item -->
+        <ul>
+            <li> Carros </li>
+            <li> Navios </li>
+            <li> Submarinos </li>
+            <li> Aviões </li>
+        </ul>
+
+        <!-- 10 listas ordenadas, numeradas -->
+        <!-- ol - ordened list -->
+        <h4>Tarefas:</h4>
+        <ol>
+            <li> Lavar o carro </li>
+            <li> Ir ao mercado </li>
+            <li> Estudar programação </li>
+            <li> Jantar com amigos </li>
+        </ol>
+
+        <!-- 11 tabelas -->
+        <!-- table cria a tabela 
+             para cada linha é criada uma tag tr - table roll/ linha
+             os dados ficam em td - table data
+             cabeçalho usamos th - nome da coluna - table header
+         -->
+        <table>
+            <tr>
+             <th>ID:</th>
+             <th>Nome:</th>
+             <th>Profissão:</th>
+            </tr>
+            <tr>
+                <td>1</td> <td>Matheus</td> <td>Comerciante</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>João</td>
+                <td>Gerente</td>
+            </tr>
+        </table>
+        <!-- 12 tag div -->
+        <!-- criar seções/separações, encapsular  -->
+        <div>
+            <h2>Título da seção</h2>
+            <p>Descrição da seção, um texto relacionado a este assunto</p>
+            <a href="#">Saber mais</a>  <!-- # própio site-->
+        </div>
+        <br>
+        <div>
+            <h2>Sobre o theus</h2>
+            <p>Nome: Matheus</p>
+        </div>
+    </body>
+</html>
