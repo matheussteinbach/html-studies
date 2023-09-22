@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <!-- igual as imagens -->
+    <!-- controls - mostra os controles, autoplay -->
+    <!-- preload - auto = site só carrega depois de carregar a midia, 
+        metadata = carrega as informações principais apenas -->
+    <audio src="audio/chicote som efeito!! (128 kbps).mp3" controls preload="auto"></audio>
+    <video src="video/Counter-strike  Global Offensive 2023.09.03 - 03.11.33.05.DVR - Trim.mp4" controls autoplay></video>
+    <br>
+    <!-- garantir o tipo do arquivo, caso não funcione o <audio src> -->
+    <audio>
+        <source src="audio/chicote som efeito!! (128 kbps).mp3" type="audio/mpeg">
+        <source src="audio/chicote som efeito!! (128 kbps).ogg" type="audio/ogg">
+        <source src="audio/chicote som efeito!! (128 kbps).wav" type="audio/wav">
+    </audio>
+</body>
+</html>
