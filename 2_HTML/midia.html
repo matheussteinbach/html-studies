@@ -10,14 +10,17 @@
     <!-- controls - mostra os controles, autoplay -->
     <!-- preload - auto = site só carrega depois de carregar a midia, 
         metadata = carrega as informações principais apenas -->
+    <!-- loop -->
     <audio src="audio/chicote som efeito!! (128 kbps).mp3" controls preload="auto"></audio>
-    <video src="video/Counter-strike  Global Offensive 2023.09.03 - 03.11.33.05.DVR - Trim.mp4" controls autoplay></video>
+    <video src="video/Counter-strike  Global Offensive 2023.09.03 - 03.11.33.05.DVR - Trim.mp4" controls autoplay loop></video>
     <br>
     <!-- garantir o tipo do arquivo, caso não funcione o <audio src> -->
-    <audio>
+    <!-- Percorre o primeiro, caso não seja compativel passa para o proximo.  -->
+    <audio controls>
         <source src="audio/chicote som efeito!! (128 kbps).mp3" type="audio/mpeg">
         <source src="audio/chicote som efeito!! (128 kbps).ogg" type="audio/ogg">
         <source src="audio/chicote som efeito!! (128 kbps).wav" type="audio/wav">
+        <p>Infelizmente o audio não é compativel com o seu navegador.</p>
     </audio>
 </body>
 </html>
